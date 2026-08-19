@@ -1,0 +1,111 @@
+<style>
+        /* Estilo Próprio, Delicado e Pastel */
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            line-height: 1.7;
+            background: linear-gradient(135deg, #fff0f5 0%, #e6f2ff 100%);
+            color: #5a5060;
+            margin: 0;
+            padding: 40px 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        /* Título Principal Delicado */
+        h1 {
+            color: #d17a9e;
+            text-align: center;
+            font-size: 2.3rem;
+            font-weight: 600;
+            margin-bottom: 10px;
+            letter-spacing: -0.5px;
+        }
+
+        /* Parágrafo de Introdução */
+        p {
+            max-width: 650px;
+            text-align: center;
+            font-size: 1.1rem;
+            color: #706377;
+            margin: 0 auto 35px auto;
+        }
+
+        /* Bloco de Destaque / Introdução */
+        .intro-container {
+            background-color: rgba(255, 255, 255, 0.75);
+            border: 1px solid #fcddec;
+            border-radius: 20px;
+            padding: 25px;
+            max-width: 600px;
+            width: 100%;
+            box-sizing: border-box;
+            margin-bottom: 25px;
+            backdrop-filter: blur(5px);
+        }
+
+        /* Container Principal do Card de Exemplos */
+        .card-container {
+            background-color: #ffffff;
+            border-radius: 24px;
+            box-shadow: 0 10px 25px rgba(220, 180, 200, 0.15);
+            padding: 35px;
+            max-width: 600px;
+            width: 100%;
+            box-sizing: border-box;
+            border: 2px solid #e1f0ff;
+        }
+
+        h2 {
+            color: #6ba4e8;
+            font-size: 1.5rem;
+            margin-top: 0;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        /* Lista Modificada e Expandida */
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        li {
+            background-color: #f7faff;
+            margin-bottom: 12px;
+            padding: 16px;
+            border-radius: 14px;
+            font-size: 0.98rem;
+            color: #5d6b7c;
+            border-left: 4px solid #b3d4fc;
+            transition: all 0.3s ease;
+        }
+
+        /* Efeito sutil ao passar o mouse */
+        li:hover {
+            transform: translateY(-2px);
+            background-color: #fff5fa;
+            border-left-color: #fcaecb;
+        }
+
+        /* Botão/Link Totalmente Personalizado */
+        a {
+            display: inline-block;
+            margin-top: 40px;
+            color: #ffffff;
+            background: linear-gradient(135deg, #fcaecb 0%, #8cb9f7 100%);
+            text-decoration: none;
+            padding: 14px 32px;
+            border-radius: 30px;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+            box-shadow: 0 5px 15px rgba(24c, 174, 203, 0.4);
+            transition: all 0.3s ease;
+        }
+
+        a:hover {
+            transform: scale(1.03);
+            box-shadow: 0 8px 20px rgba(140, 185, 247, 0.5);
+            opacity: 0.95;
+        }
